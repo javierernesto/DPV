@@ -1,0 +1,4 @@
+# Sintaxis: NOMBRE<TAB>KEYWORD1|KEYWORD2|LITERAL1
+DPV	KEYWORD1
+calcularPresionVaporSaturacion	KEYWORD2
+calcularDPV	KEYWORD2
