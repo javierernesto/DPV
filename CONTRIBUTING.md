@@ -2,28 +2,36 @@
 
 ¡Gracias por querer aportar a **DPV**! 🌱
 
-## Cómo reportar un bug
-1. Verifica que no exista ya un issue abierto.
-2. Usa la plantilla de *bug report*.
-3. Incluye: placa, versión del IDE/PlatformIO, código mínimo reproducible y salida esperada vs obtenida.
+Antes de participar, por favor leé nuestro
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). Aplica a todas las
+interacciones del proyecto (issues, PRs, discusiones).
 
-## Cómo proponer una mejora
-1. Abre un issue con la plantilla *feature request*.
-2. Explica el caso de uso agronómico/ambiental.
-3. Si es una fórmula, cita la fuente (paper, FAO, etc.).
+## 🗂️ Estructura del repositorio
 
-## Pull Requests
+## 🐛 Cómo reportar un bug
+1. Verificá que no exista ya un issue abierto.
+2. Usá la plantilla de *bug report*.
+3. Incluí: placa, versión del IDE/PlatformIO, código mínimo reproducible y salida esperada vs obtenida.
+
+## ✨ Cómo proponer una mejora
+1. Abrí un issue con la plantilla *feature request*.
+2. Explicá el caso de uso agronómico/ambiental.
+3. Si es una fórmula, citá la fuente (paper, FAO, etc.).
+
+## 🔧 Pull Requests
 - Rama desde `main`: `git checkout -b feat/mi-mejora`.
-- Sigue el estilo del código existente (Doxygen en comentarios, sufijo `f` para floats, `expf` en lugar de `exp`).
+- Seguí el estilo del código existente (Doxygen en comentarios, sufijo `f` para floats, `expf` en lugar de `exp`).
 - Un commit por cambio lógico. Mensajes en modo imperativo (`Añade soporte BME280`).
-- Actualiza `CHANGELOG.md` en la sección `[Unreleased]`.
-- Ejecuta el ejemplo `DHT22_DPV` en al menos un Arduino real o simulador antes de subir.
+- Actualizá `CHANGELOG.md` en la sección `[Unreleased]`.
+- Ejecutá el ejemplo `DHT22_DPV` en al menos un Arduino real o simulador antes de subir.
 
-## Estilo
+## 🎨 Estilo
 - C++11 compatible (Arduino IDE 1.8+).
 - 2 espacios de indentación.
 - Todo comentario y documentación en **español**.
 - Nombres de variables y funciones en **español** (coherencia con el dominio).
+- Sufijo `f` en literales float (`0.6108f`, no `0.6108`).
+- Funciones matemáticas específicas para `float` (`expf`, `sqrtf`, etc.).
 
-## Licencia
-Al contribuir aceptas que tu código se publique bajo la licencia **MIT** del proyecto.
+## 📜 Licencia
+Al contribuir aceptás que tu código se publique bajo la licencia **MIT** del proyecto.
