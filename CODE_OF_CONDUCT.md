@@ -16,7 +16,7 @@ Nos comprometemos a ofrecer un entorno abierto, respetuoso y libre de acoso para
 - Spam o autopromoción no solicitada.
 
 ## Aplicación
-Reporta cualquier incidente a **tu@email.com**. Todas las quejas serán revisadas y tratadas con confidencialidad.
+Reporta cualquier incidente a **tolejavy@gmail.com**. Todas las quejas serán revisadas y tratadas con confidencialidad.
 
 ## Atribución
 Adaptado del Contributor Covenant, versión 2.1.
