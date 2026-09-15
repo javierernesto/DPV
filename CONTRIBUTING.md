@@ -1,37 +1,66 @@
-# Guía de contribución
+# Código de Conducta
 
-¡Gracias por querer aportar a **DPV**! 🌱
+Este proyecto sigue el [Contributor Covenant v2.1](https://www.contributor-covenant.org/es/version/2/1/code_of_conduct/).
 
-Antes de participar, por favor leé nuestro
-[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). Aplica a todas las
-interacciones del proyecto (issues, PRs, discusiones).
+## Nuestro compromiso
 
-## 🗂️ Estructura del repositorio
+Nos comprometemos a ofrecer un entorno abierto, respetuoso y libre de acoso
+para todas las personas, sin importar edad, experiencia, nacionalidad,
+identidad de género, orientación sexual, religión, nivel académico o
+discapacidad.
 
-## 🐛 Cómo reportar un bug
-1. Verificá que no exista ya un issue abierto.
-2. Usá la plantilla de *bug report*.
-3. Incluí: placa, versión del IDE/PlatformIO, código mínimo reproducible y salida esperada vs obtenida.
+Como miembros, contribuyentes y mantenedores de **DPV**, nos comprometemos a
+que la participación en nuestro proyecto y en nuestra comunidad sea una
+experiencia libre de acoso para todo el mundo.
 
-## ✨ Cómo proponer una mejora
-1. Abrí un issue con la plantilla *feature request*.
-2. Explicá el caso de uso agronómico/ambiental.
-3. Si es una fórmula, citá la fuente (paper, FAO, etc.).
+## Comportamientos esperados
 
-## 🔧 Pull Requests
-- Rama desde `main`: `git checkout -b feat/mi-mejora`.
-- Seguí el estilo del código existente (Doxygen en comentarios, sufijo `f` para floats, `expf` en lugar de `exp`).
-- Un commit por cambio lógico. Mensajes en modo imperativo (`Añade soporte BME280`).
-- Actualizá `CHANGELOG.md` en la sección `[Unreleased]`.
-- Ejecutá el ejemplo `DHT22_DPV` en al menos un Arduino real o simulador antes de subir.
+- Lenguaje cordial, inclusivo y constructivo.
+- Aceptar críticas técnicas con apertura y sin personalizar.
+- Priorizar el interés del proyecto y de la comunidad agronómica.
+- Mostrar empatía hacia otras personas y sus contextos.
+- Dar crédito al trabajo de los demás cuando corresponda.
+- Respetar las opiniones, puntos de vista y experiencias ajenas.
 
-## 🎨 Estilo
-- C++11 compatible (Arduino IDE 1.8+).
-- 2 espacios de indentación.
-- Todo comentario y documentación en **español**.
-- Nombres de variables y funciones en **español** (coherencia con el dominio).
-- Sufijo `f` en literales float (`0.6108f`, no `0.6108`).
-- Funciones matemáticas específicas para `float` (`expf`, `sqrtf`, etc.).
+## Comportamientos inaceptables
 
-## 📜 Licencia
-Al contribuir aceptás que tu código se publique bajo la licencia **MIT** del proyecto.
+- Insultos, ataques personales o comentarios discriminatorios.
+- Acoso público o privado, en cualquier forma.
+- Comentarios sexuales no deseados o atención sexual no solicitada.
+- Troleo, provocación o comentarios despectivos.
+- Spam o autopromoción no solicitada.
+- Publicar información privada de terceros sin su consentimiento explícito.
+- Cualquier conducta que razonablemente pueda considerarse inapropiada en un
+  entorno profesional.
+
+## Alcance
+
+Este Código de Conducta aplica a todos los espacios del proyecto: issues,
+pull requests, discusiones, comentarios de código, correos electrónicos y
+cualquier otro canal oficial de **DPV**. También aplica cuando una persona
+representa al proyecto en espacios públicos.
+
+## Aplicación
+
+Reportá cualquier incidente a **tolejavy@gmail.com**.
+
+Todas las quejas serán revisadas y tratadas con confidencialidad. El
+mantenedor se compromete a:
+
+1. Responder dentro de un plazo razonable.
+2. Investigar el incidente de forma imparcial.
+3. Tomar las medidas apropiadas según la gravedad del caso.
+
+Las posibles consecuencias incluyen advertencia privada, eliminación de
+comentarios o contribuciones, y bloqueo temporal o permanente de la persona
+involucrada en los espacios del proyecto.
+
+## Atribución
+
+Este Código de Conducta es una adaptación del
+[Contributor Covenant](https://www.contributor-covenant.org), versión 2.1,
+disponible en
+[https://www.contributor-covenant.org/es/version/2/1/code_of_conduct/](https://www.contributor-covenant.org/es/version/2/1/code_of_conduct/).
+
+Las pautas de aplicación fueron inspiradas por la
+[guía de aplicación del Contributor Covenant](https://www.contributor-covenant.org/es/version/2/1/code_of_conduct/#aplicación).
